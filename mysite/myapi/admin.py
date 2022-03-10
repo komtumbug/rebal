@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Rapper
+from .models import Music, Rapper
 
 
 
@@ -8,6 +8,5 @@ from .models import Rapper
 
 admin.site.register(Rapper)
 
-
-
+admin.site.register(Music)
 
